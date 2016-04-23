@@ -1,9 +1,15 @@
-#A Full Gulpfile
+# An Advanced Gulpfile
 
-This repo contains the current `gulpfile.js` I use, including pulling in Luigi with Bower.
+This repository is the full code accompanying the post on my blog *[Advanced Gulpfile](https://www.mikestreety.co.uk/blog/advanced-gulp-file)*.
 
-A blog post explaining the whole file can be found on my website - [Advanced Gulp File](http://www.mikestreety.co.uk/blog/an-advanced-gulpjs-file)
+The repo contains the following files:
 
-## Gulp with SVGs and Sprites
+- `bower.json` - this pulls in [Luigi](https://github.com/bozboz/luigi), a Sass framework from Bozboz
+- `package.json` - this includes all the gulp plugins required by the gulp file
+- `gulpfile.js` - the real reason you’re here.
 
-I have somewhat progressed my workflow to include SVG sprites. The code for which can be found in [this repo](https://github.com/liquidlight/sass-gulp-svg-sprite) with a corresponding [blog post](https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using-gulp-and-sass/)
+The gulp file includes SCSS compilation and compression, JS concatenation and a sprite creation task. A full explanation of all the code can be found in the [blog post](https://www.mikestreety.co.uk/blog/advanced-gulp-file).
+
+### Gulp with SVGs and Sprites
+
+One of the updates to my gulp process is generating SVG sprites. I have written a separate blog post detailing this workflow on the Liquid Light blog - [Creating SVG Sprites using Gulp](https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using-gulp-and-sass/)
